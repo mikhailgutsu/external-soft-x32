@@ -1,0 +1,12 @@
+1.  Compile DLL:
+    g++ -shared -o injectable_dll.dll injectable_dll.cpp
+
+2.  Compile Injector:
+    g++ -o injector injector.cpp
+
+3.  Compile anti_inject:
+    g++ -o anti_inject anti_inject.cpp -lpsapi
+
+4.  Run Injector, and use ID of proccess.
+
+5.  Run anti_inject for using process.
