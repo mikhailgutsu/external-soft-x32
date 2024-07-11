@@ -1,2 +1,2 @@
 # EXTERNAL-SOFT32
- EXT-SOFT | 
+ EXT-SOFT | QT, TlHelp32 and internall DLL
